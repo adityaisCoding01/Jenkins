@@ -20,20 +20,20 @@ pipeline
             stage('Deploy')
             {
                  steps
-                 {
-                 echo "Deploying...."
-                 }
+                    {
+                    echo "Deploying...."
+                    }
 
             }
 
             stage('Release')
-            {
-            steps
-            {
-            echo "Releasing..."
-            }
-            }
-            }
+                {
+                    steps
+                        {
+                            echo "Releasing..."
+                        }
+                }
+}
 
 
 
